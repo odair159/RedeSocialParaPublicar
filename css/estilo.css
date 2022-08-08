@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+header img{
+    border: solid 6px  #2F4F4F;
+    border-radius: 200px;
+    height: 200px;
+    box-shadow: 0 0 13px #000000;
+    
+}
+
+
+header h3{
+    color:#2F4F4F;
+    text-transform: uppercase;
+    padding: 1rem;;
+}
+header h1{
+    text-transform: uppercase;
+}
+
+header{
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 0 13px #363636;
+  
+}
+body{
+    background-color: #DCDCDC;
+    
+}
+
+
+
+#sobre-mim{
+    padding: 40px;
+    background-color: white;
+    box-shadow: 0 0 13px #363636;
+
+    
+}
+#sobre-mim h1{
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.flex{
+    display: flex;
+}
+#numeros-pessoas{
+    padding: 32px;
+    margin-left:100px ;
+}
+
+
+#numeros-seguidores{
+       margin-right: 50px; 
+} 
+.numero{
+    text-transform: uppercase;
+    color: #3d6e6e;
+    font-weight: bold;
+    text-align: center;
+}
+.texto-numero{
+    text-transform: uppercase;
+    color:  #272727;
+    font-weight: bold;
+
+}
+    
+ 
+
+
+#sobre-mim p{
+    line-height: 1.5;
+}
+
+
+
+#botao-seguir{
+    text-align: center;
+    padding: 4rem 32px;
+    transition: all ease-in-out.3s;
+}
+
+#botao-seguir a{
+    text-decoration: none;
+    color: white;
+    padding: 2rem;
+    display: block;
+    font-weight: bold;
+    background-color: #2F4F4F;
+    letter-spacing:6px;
+    border-radius: 36px;
+    width: 100%;
+    box-shadow: 0 0 30px #3d3d3d;
+    
+}
+#botao-seguir:hover{
+    transform: scale(0.9);
+    transition: all ease-in-out.3s;
+}
+
+@media screen and (min-width: 960px){
+   body{
+       margin: 0 auto;
+       background-color: #DCDCDC;
+       
+   }
+    header{
+        text-align: left ;
+        padding: 4rem;
+        background-color: rgb(255, 255, 255);
+        border: solid 2px #ffffff;
+        box-shadow: 0 0 0.1px #ffffff;
+        
+        
+        
+        
+    }
+   .flex-2{
+       display: flex;
+       text-align: center;
+   }
+
+    header img{
+        border: solid 6px  #2F4F4F;
+        border-radius: 250px;
+        height: 250px;
+        box-shadow: 0 0 13px #000000;
+        ;
+    }
+    #numeros-pessoas{
+        padding: 100px;
+        height: 20px;
+        font-weight: bold;
+        font-size: 20px;
+
+       
+       
+
+    }
+    #sobre-mim{
+        padding: 40px;
+        background-color: #DCDCDC;
+        border: solid 2px #DCDCDC;
+        box-shadow: 0 0 1px #DCDCDC;
+        width: 600px;
+        margin: 0 auto;
+        
+        
+    
+        
+    }
+    header h1{
+        text-transform: uppercase;
+       margin: 0 auto;
+       line-height: 1.5;
+       
+    }
+    
+    header h3{
+        color:#2F4F4F;
+        text-transform: uppercase;
+       text-align: left;
+       padding: 1rem;
+    }  
+
+    #botao-seguir{
+        text-align: center;
+        padding: 4rem 32px;
+        transition: all ease-in-out.3s;
+        width: 30vw;
+        margin: 0 auto;
+        
+    }
+}
